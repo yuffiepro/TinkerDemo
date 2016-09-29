@@ -125,7 +125,7 @@ def getApplyResourceMappingPath() {
 }
 
 def getTinkerIdValue() {
-    return hasProperty("TINKER_ID") ? TINKER_ID : gitSha()
+    return hasProperty("TINKER_ID") ? TINKER_ID :gitSha()
 }
 
 def buildWithTinker() {
